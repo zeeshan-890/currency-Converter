@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: wrap;
+    background-color: #037171;
+    color: #03312e;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    background-color: #00b9ae;
+}
+
+
+
+.header{
+margin: 20px;
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 600;
+}
+
+.input ,.input input{
+    width: 100%;
+   padding: 8px 10px;
+   border-radius: 10px;
+   border: none;
+   outline: none;
+
+}
+.input{
+    padding: 10px 30px;
+}
+.selections{
+    width: 100%;
+    display: flex;
+
+   margin: 20px;
+    align-items: center;
+}
+.selections img{
+    width: 50px;
+}
+.conversion{
+    padding: 10px;
+}
+.from,.to{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    
+
+}
+.from select,.to select{
+
+    width:5em;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    height: 1.8em;
+    margin-left:5px ;
+
+}
+
+.result{
+    font-weight: bold;
+   width: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family:  Tahoma, sans-serif;
+}
+
+#convert{
+    width: 60%;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    color: #e5f4f3eb;
+    background-color: #03312e;
+   
+}
+#convert:hover{
+    background-color: #282a2a;
+}
+
